@@ -152,12 +152,9 @@ export default function App() {
           </h2>
           <div className="glassmorphism rounded-3xl p-4 golden-glow animate-fade-in">
             <div className="relative pb-[56.25%] rounded-2xl overflow-hidden shadow-2xl">
-              <iframe
-                src="https://www.youtube.com/embed/MLX11dz4ObY?autoplay=1&loop=1&playlist=MLX11dz4ObY"
-                className="absolute inset-0 w-full h-full"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
+              <video controls width="100%">
+  <source src="https://player.cloudinary.com/embed/?cloud_name=dxkbvpaa1&public_id=lv_7646454190348209425_20260610025241_ul4pfd" type="video/mp4">
+</video>
             </div>
           </div>
         </div>
